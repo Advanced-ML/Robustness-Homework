@@ -1,26 +1,30 @@
 # Homework
 
-# Part 1: Adversarial examples (2 unidades)
+# Part 1: Adversarial examples (1 unidades)
 
-En ésta sección se explorará el efecto de las variables epsilon y el step size en la generación de ejemplos adversarios. Para ello, ejecute el archivo llamado AAAAAAA.py y evidencie la generación de un ejemplo adversario a partir de la imagen de PANDAAAA. Luego, experimente con el valor del epsilon y del step size que se declaran al principio del archivo. En ese sentido, se deben realizar 9 experimentos con 3 valores de epsilon y 3 valores de norma para obtener la puntuación completa. En su reporte adjunte un subplot similar al que se muestra como ejemplo y explique por qué con los valores más altos de epsilon y stepsize se ve claramente la presencia de ruido en la imagen generada. 
+In this section you will explore the effect of the epsilon and step size variables on the generation of adversarial examples. To do so, run the file named punto_1.py and test the generation of an adversarial example from the carro.jpg image. Then, experiment with the value of the epsilon and step size that are declared at the beginning of the file. In that sense, 9 experiments with 3 values of epsilon and 3 values of norm should be performed to obtain the full score. In your report attach a subplot similar to the one shown as an example and explain why with the higher values of epsilon and stepsize the presence of noise is clearly seen in the generated image.
+
+
 
 
 # Part 2: Adversarial attacks (2 unidades)
 
-Éste punto consiste en atacar un clasificador preentrenado con el dataset CIFAR10. La idea es llevar a cabo 9 experimentos variando tanto el algoritmo empleado (pgd o apgd) como distintos hiperparámetros de los ataques. Para ello ejecute el archivo AAAAAAAAAAAAAa.py, modificando los valores que se declaran en las primeras líneas. En su reporte, inserte una tabla con los resultados obtenidos y describa brevemente las tendencias observadas. 
+This point consists of attacking a pre-trained classifier with the CIFAR10 dataset. The idea is to carry out 9 experiments varying both the algorithm used (pgd or apgd) and different hyperparameters of the attacks. To do so, run the file punto_2.py, modifying the values declared in the first lines. In your report, insert a table with the results obtained and briefly describe the observed trends. 
 
 
-# Part 3: MM attack (1 unidad)
 
-En esta sección se explorará un código del algoritmo de Minimum Margin Attack. Para ello, observe el archivo AAAAAAAAAAAAAAAa.py y ejecutelo si lo desea. En éste caso describa qué esta haciendo el código entre las líneas AAAAAAAAAAAAAAAa y AAAAAAAAAAAAAAAAAAAAAA, más específicamente, qué información contienen y a qué variables del pseudocódigo corresponden los parámetros AAAAAAA y BBBBBBB de las lineas mencionadas. En su reporte responda estas preguntas.
+
+# Part 3: MM attack (2 unidad)
+
+In this section we will explore a code of the Minimum Margin Attack algorithm. To do so, look at the file punto_3.py. In this case describe what the code is doing between the lines 147 and 150, more specifically, what information they contain and to which pseudocode variables the 'a' and 'b' parameters of the mentioned lines correspond. In your report answer these questions. Additionally, on line 162 of the same file there is a TODO that you must solve in order to run the code and produce an adversarial example using the MMA algorithm. 
 
 
 
 # Bono (0.5 unidades): 
 
-Responda en su reporte de manera breve las siguientes preguntas. 
-¿Con qué parámetro del entrenamiento de redes neuronales se relaciona el step size empleado en los ataques adversarios?
-¿Cuál es el objetivo de la función de loss propuesta por los autores de APGD en un ataque untargeted?
+Briefly answer the following questions in your report. 
+What parameter of neural network training is the step size used in adversarial attacks related to?
+What is the objective of the loss function proposed by the authors of APGD in an untargeted attack?
 
 
 
