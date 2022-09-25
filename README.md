@@ -5,7 +5,7 @@
 In this section you will explore the effect of the epsilon and step size variables on the generation of adversarial examples. To do so, run the file named punto_1.py and test the generation of an adversarial example from the carro.jpg image. Then, experiment with the value of the epsilon and step size that are declared at the beginning of the file. In that sense, 9 experiments with 3 values of epsilon and 3 values of norm should be performed to obtain the full score (the idea is that you take a small value, a medium value and a large value for each parameter). In your report attach a subplot similar to the one shown as an example and explain why with the higher values of epsilon and stepsize the presence of noise is clearly seen in the generated image.
 
 
-![alt text](http://url/to/img.png)
+![My Image](figura_git-hub-tarea.png)
 
 # Part 2: Adversarial attacks (2 unidades)
 
