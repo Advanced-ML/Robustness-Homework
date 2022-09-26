@@ -20,7 +20,7 @@ In this section we will explore a code of the Minimum Margin Attack algorithm. T
 
 
 
-# Bono (0.5 points): 
+# Bonus (0.5 points): 
 
 Briefly answer the following questions in your report. 
 What parameter of neural network training is the step size used in adversarial attacks related to?
